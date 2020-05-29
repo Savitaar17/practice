@@ -1,0 +1,176 @@
+/* Some Universal things to do */
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/Project-6/Cool-Server-Room.jpg) no-repeat center center fixed,
+  background-size: cover,cover; 
+  position: relative;
+  box-sizing: content-box;
+  overflow: auto;
+}
+.main {
+  background: rgba(38, 41, 209, 0.8);
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* starting of header */
+.header h2 {
+  margin: 0;
+  padding: 0px;
+  margin-left: 20px;
+}
+.header .up-nav ul {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 25px;
+  margin-left: 500px;
+}
+.header .up-nav ul li {
+  display: inline-block;
+  padding: 2px 40px;
+}
+/* end of header part */
+
+/* starting of naming part */
+.name {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 0 50px 50px 50px;
+  color: white;
+  text-align: center;
+}
+.name p {
+  font-size: 0.7em;
+}
+.name a button {
+  background: none;
+  padding: 6px 12px;
+  color: white;
+  border-style: none;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 0.7em;
+  margin-top: 10px;
+}
+/* End of naming and explanation part */
+
+/* starting of search button and all */
+.search {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  height: 210px;
+  position: relative;
+  padding-top: 150px;
+}
+.search input[type="text"] {
+  width: 450px;
+  padding: 10px 10px;
+  margin: 0 0 15px 40px;
+  border: 2px solid #ccc;
+}
+.search button {
+  width: 90px;
+  padding: 10px 0;
+  border-style: none;
+  background-color: teal;
+  color: white;
+}
+.checkbox {
+  margin: 0 0 15px 155px;
+}
+/* End of Search button and all */
+
+/* start of 3 nlock of nav */
+.price {
+  width: 100%;
+  background-color: rgb(49, 51, 59);
+  padding: 20px 0;
+}
+.price h2 {
+  text-align: center;
+  color: white;
+}
+.price .first-nav ul li,
+.price .second-nav ul li,
+.price .third-nav ul li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(3, 37, 17);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.price button {
+  padding: 6px 15px;
+}
+.first-nav {
+  background-color: rgb(18, 252, 119);
+}
+.second-nav {
+  background-color: rgb(1, 252, 252);
+}
+.third-nav {
+  background-color: rgb(241, 14, 184);
+}
+.price .first-nav,
+.price .second-nav,
+.price .third-nav {
+  width: 100%;
+  margin: 5%;
+}
+/* End of Middle */
+.contact {
+  margin: 8px 105px;
+}
+.contact h2 {
+  text-align: center;
+}
+.contact input {
+  border-style: none;
+  width: 100%;
+  padding: 15px;
+  margin: 13px 0px;
+  border: 2px solid #ccc;
+}
+.contact button {
+  width: 25%;
+  padding: 15px;
+  background-color: rgb(3, 128, 80);
+  border-style: none;
+  color: white;
+  margin-top: 20px;
+}
+body p {
+  padding-top: 20px;
+  text-align: center;
+}
+/* End of All */
+/*  Now some hover and focus effect*/
+/* In search Menu over input and search button while hovering and focus*/
+.search input[type="text"]:focus {
+  background-color: rgba(150, 243, 243, 0.3);
+}
+button:hover,
+button:focus {
+  background-color: rgba(37, 75, 67, 0.3);
+  border-style: none;
+  color: rgba(28, 39, 28, 0.712);
+}
+/* End of search */
+.contact input:focus {
+  border: 2px solid rgb(3, 80, 80, 0.3);
+}
